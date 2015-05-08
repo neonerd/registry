@@ -1,11 +1,11 @@
 {
   "name": "registry",
-  "author" : "Andrej Sykora",
+  "author": "Andrej Sykora",
   "version": "0.0.1",
   "private": false,
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register --recursive",
-    "build" : "gulp build"
+    "build": "gulp build"
   },
   "main": "dist/index",
   "engines": {
@@ -15,8 +15,7 @@
   },
   "devDependencies": {
     "chai": "~1.9.0",
-    "coffee-script": "^1.8.0",
-    "gulp": "~3.5.1",
-    "gulp-coffee": "~1.4.1"
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1"
   }
 }
